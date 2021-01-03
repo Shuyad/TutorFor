@@ -1,5 +1,6 @@
 # TutorFor
 
+A website where you find Best Home Tutors for your children
 
 ### Setup Commands
 
@@ -46,15 +47,11 @@ git push -f origin master
             - [ ] CountUserContact ( How many User Shows Interest )
             - [ ] EditProfile
         - [ ] SettingPage
-            - [ ] PasswordReset
             - [ ] ChangePassword
             - [ ] ChangeUserName
-    - [ ] Display Profile Page
-        - [ ] User Page
-        - [ ] Tutor Page
+    - [ ] Tutor Profile Page
     - [ ] DisplayAllTutors Page
-        - [ ] DisplayProfile {TutorPage} (ln 28)
-        - [ ] Contact PopUp (Email, Phno., Whatsapp)
+    
     - [ ] AdminPage(Optional)
         - [ ] DashBoard UI
             - [ ] UserCount
