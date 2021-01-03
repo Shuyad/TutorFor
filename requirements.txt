@@ -16,5 +16,6 @@ gunicorn==19.7.1
 pytz==2020.5
 six==1.15.0
 sqlparse==0.4.1
+whitenoise==5.2.0
 toml==0.10.2
 wrapt==1.12.1
