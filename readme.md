@@ -32,16 +32,6 @@ git push -f origin master
 [   ] UnTick List Item
 ```
 
-### Database (MySQL)
-
-- [ ] Link DB 
-- [ ] Create Tables
-    - [ ] UserTable
-    - [ ] TutorTable
-- [ ] Insert Demo Data
-- [ ] Post Data into Tables
-- [ ] Fetch Data From Tables
-
 ### FrontEnd (HTML,CSS,JS,Django Framework)
 
 - [ ] Pages
@@ -69,6 +59,16 @@ git push -f origin master
         - [ ] DashBoard UI
             - [ ] UserCount
             - [ ] TutorCount
+
+### Database (MySQL)
+
+- [ ] Link DB 
+- [ ] Create Tables
+    - [ ] UserTable
+    - [ ] TutorTable
+- [ ] Insert Demo Data
+- [ ] Post Data into Tables
+- [ ] Fetch Data From Tables
 
 ### Backend (Django)
 - [ ]
