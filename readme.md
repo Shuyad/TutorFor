@@ -7,7 +7,7 @@ To copy/downlaod this git repo to your machine
 ```
 git clone https://github.com/5tupidbrain/TutorFor.git
 ```
-(use below Commands inside the newly created Folder ie. *** TutorFor *** )
+(use below Commands inside the newly created Folder ie. ***TutorFor*** )
 
 To setup this repo for workign on it 
 ```
@@ -30,10 +30,9 @@ git push -f origin master
 ```
 [ x ] Tick List Item
 [   ] UnTick List Item
-
 ```
 
-### Database (MySQL)
+Database (MySQL)
     - [ ] Link DB 
     - [ ] Create Tables
         - [ ] UserTable
@@ -42,7 +41,7 @@ git push -f origin master
     - [ ] Post Data into Tables
     - [ ] Fetch Data From Tables
 
-### FrontEnd (HTML,CSS,JS,Django Framework)
+FrontEnd (HTML,CSS,JS,Django Framework)
     - [ ] Pages
         - [ ] IndexPage
         - [ ] AboutPage
@@ -69,5 +68,5 @@ git push -f origin master
                 - [ ] UserCount
                 - [ ] TutorCount
 
-### Backend (Django)
+Backend (Django)
     - [ ]
