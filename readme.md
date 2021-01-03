@@ -7,7 +7,7 @@ To copy/downlaod this git repo to your machine
 ```
 git clone https://github.com/5tupidbrain/TutorFor.git
 ```
-(use below Commands inside the newly created Folder ie. ***TutorFor*** )
+> (use below Commands inside the newly created Folder ie. ***TutorFor*** )
 
 To setup this repo for workign on it 
 ```
