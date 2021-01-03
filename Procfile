@@ -1,1 +1,1 @@
-web: gunicorn TutorFor.wsgi --log-file -
+web: gunicorn TutorFor.wsgi
