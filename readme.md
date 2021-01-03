@@ -8,7 +8,7 @@ To copy/downlaod this git repo to your machine
 ```
 git clone https://github.com/5tupidbrain/TutorFor.git
 ```
-> (use below Commands inside the newly created Folder ie. ***TutorFor*** )
+<!-- > (use below Commands inside the newly created Folder ie. ***TutorFor*** )
 
 To setup this repo for workign on it 
 ```
@@ -20,12 +20,8 @@ To update any changes to to this repo
 git add .
 git commit -m "your comment here for the update"
 git push origin master
-```
-
-<!-- For Force Push
-```
-git push -f origin master
 ``` -->
+
 
 ## Project Todo List
 ```
