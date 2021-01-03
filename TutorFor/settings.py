@@ -125,3 +125,7 @@ STATICFILES_DIRS = [
 
 #  Add configuration for static files storage using whitenoise
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
