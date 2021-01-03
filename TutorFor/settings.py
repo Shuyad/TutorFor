@@ -25,7 +25,14 @@ SECRET_KEY = '@s6vo1886!o7av2os2gwn=znm@qblz-2d9gefaws9g3(9_exf*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+   'http://tutorfor.herokuapp.com/',
+   'https://tutorfor.herokuapp.com/',
+   'tutorfor.herokuapp.com',
+   'tutorfor.herokuapp.com/',
+   '127.0.0.1',
+]
 
 
 # Application definition
@@ -125,4 +132,3 @@ STATICFILES_DIRS = [
 
 #  Add configuration for static files storage using whitenoise
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-    
