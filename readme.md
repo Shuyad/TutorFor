@@ -22,10 +22,10 @@ git commit -m "your comment here for the update"
 git push origin master
 ```
 
-For Force Push
+<!-- For Force Push
 ```
 git push -f origin master
-```
+``` -->
 
 ## Project Todo List
 ```
