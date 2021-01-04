@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -12,7 +12,14 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <!-- Custom CSS -->
+
     <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>{% block title %} {% endblock title %} | TutorFor</title>
     <meta name="theme-color" content="#7952b3" />
@@ -25,8 +32,7 @@
     ></script>
 
     <nav
-      class="navbar navbar-expand-md navbar-light px-5 py-3 bg-light border-bottom shadow-sm"
-      aria-label="Fourth navbar example"
+      class="navbar navbar-expand-md navbar-dark px-5 py-3 border-bottom shadow-sm"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="/">TutorFor</a>
@@ -51,14 +57,17 @@
               <a class="nav-link" href="/support">Support</a>
             </li>
           </ul>
-          <a class="btn btn-outline-primary" href="/user/signup">Sign up</a>
+          <a class="btn btn-custom px-4 py-0" href="/user/signup">
+            <div class="text-center">Sign up</div>
+          </a>
         </div>
       </div>
     </nav>
 
     {% block body %} {% endblock body %}
 
-    <footer class="footer mt-auto py-5 bg-light">
+    <footer class="footer mt-auto">
+      <div class="grad-border"></div>
       <div class="container">
         <span class="text-muted">Footer content here.</span>
       </div>
